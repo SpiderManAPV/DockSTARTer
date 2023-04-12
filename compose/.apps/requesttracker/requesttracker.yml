@@ -1,7 +1,6 @@
 services:
   requesttracker:
     container_name: requesttracker
-    image: netsandbox/request-tracker:latest
     environment:
       - PGID=${PGID}
       - PUID=${PUID}
@@ -11,8 +10,6 @@ services:
       options:
         max-file: ${DOCKERLOGGING_MAXFILE}
         max-size: ${DOCKERLOGGING_MAXSIZE}
-    ports:
-      - ${REQUESTTRACKER_PORT_80}:80
     restart: ${REQUESTTRACKER_RESTART}
     volumes:
       - /etc/localtime:/etc/localtime:ro
