@@ -1,5 +1,5 @@
 services:
-  requestrr:
+  requesttracker:
     labels:
       com.dockstarter.appinfo.deprecated: "false"
       com.dockstarter.appinfo.description: Request Tracker (RT) is an open source issue tracking system.
