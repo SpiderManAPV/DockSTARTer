@@ -1,0 +1,3 @@
+services:
+  itflow:
+    image: lued/itflow

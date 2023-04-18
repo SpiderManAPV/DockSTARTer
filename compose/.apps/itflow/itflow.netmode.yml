@@ -1,0 +1,3 @@
+services:
+  itflow:
+    network_mode: ${ITFLOW_NETWORK_MODE}

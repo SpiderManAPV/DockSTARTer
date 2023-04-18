@@ -1,0 +1,4 @@
+services:
+  itflow:
+    ports:
+      - ${ITFLOW_PORT_8080}:8080

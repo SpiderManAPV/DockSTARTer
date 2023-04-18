@@ -1,0 +1,3 @@
+services:
+  itflow:
+    hostname: ${DOCKERHOSTNAME}

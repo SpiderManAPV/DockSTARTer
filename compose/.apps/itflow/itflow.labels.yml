@@ -1,0 +1,13 @@
+services:
+  itflow:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: IT documentation, ticketing, and accounting, for small MSPs and other IT
+      com.dockstarter.appinfo.nicename: itflow
+      com.dockstarter.appvars.itflow_enabled: "false"
+      com.dockstarter.appvars.itflow_network_mode: ""
+      com.dockstarter.appvars.itflow_port_8080: "8080"
+      com.dockstarter.appvars.itflow_restart: unless-stopped
+      com.dockstarter.appvars.itflow_name: "itflow"
+      com.dockstarter.appvars.itflow_url: "itflow.yourdomain.com"
+      com.dockstarter.appvars.itflow_db_pass: "generate a secure password"
