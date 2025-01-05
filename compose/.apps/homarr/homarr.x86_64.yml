@@ -1,0 +1,3 @@
+services:
+  homer:
+    image: ghcr.io/ajnart/homarr:${HOMER_TAG}

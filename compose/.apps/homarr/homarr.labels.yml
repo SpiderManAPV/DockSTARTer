@@ -1,0 +1,12 @@
+services:
+  homarr:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Customizable browser's home page to interact with your homeserver's Docker containers (e.g. Sonarr/Radarr)"
+      com.dockstarter.appinfo.nicename: "Homarr"
+      com.dockstarter.appvars.homarr_container_name: "homarr"
+      com.dockstarter.appvars.homarr_enabled: "false"
+      com.dockstarter.appvars.homarr_network_mode: ""
+      com.dockstarter.appvars.homarr_port_7575: "7575"
+      com.dockstarter.appvars.homarr_restart: "unless-stopped"
+      com.dockstarter.appvars.homarr_tag: "latest"

@@ -1,0 +1,13 @@
+services:
+  homarr:
+    container_name: ${HOMARR_CONTAINER_NAME}
+    environment:
+      - PGID=${PGID}
+      - PUID=${PUID}
+      - TZ=${TZ}
+    restart: ${HOMARR_RESTART}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_STORAGE}:/data
+      - ${DOCKER_VOLUME_CONFIG}/homarr/configs:/app/data/configs
+      - ${DOCKER_VOLUME_CONFIG}/homarr/icons:/app/public/icons
