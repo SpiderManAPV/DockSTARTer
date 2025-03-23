@@ -1,0 +1,4 @@
+services:
+  recommendarr:
+    ports:
+      - ${RECOMMENDARR_PORT_3000}:3000

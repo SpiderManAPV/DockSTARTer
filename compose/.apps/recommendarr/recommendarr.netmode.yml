@@ -1,0 +1,3 @@
+services:
+  recommendarr:
+    network_mode: ${RECOMMENDARR_NETWORK_MODE}

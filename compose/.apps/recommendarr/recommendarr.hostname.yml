@@ -1,0 +1,3 @@
+services:
+  recommendarr:
+    hostname: ${DOCKER_HOSTNAME}
